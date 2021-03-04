@@ -2,6 +2,12 @@
 # Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
 version: 0.2
 
+env:
+  variables:
+    MESSAGE: 'Hello World'
+  exported-variables:
+    - MESSAGE
+
 phases:
   pre_build:
     commands:
