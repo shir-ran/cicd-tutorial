@@ -21,6 +21,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo creating .env file
+      - echo MESSAGE
       - bash ./create-env.sh
 # Include only the files required for your application to run.
 # Do not use recursively include artifacts from node_modules directory as it will include unnecessary packages 
